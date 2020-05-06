@@ -25,17 +25,19 @@ body
     font-size: 20px;
     color: gray;
 }
-.into-img
+.intro-img
 {
     height: 800px;
+    padding-bottom: 50px;
 }
 #about,
+.about
+{
+    background-color: #f3f3f3;
+}
 .banner-img
 {
-    padding-top: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 50px;
+    padding: 50px 10px;
     height: 600px;
     width: 100%;
 }
@@ -48,7 +50,87 @@ body
 .container p
 {
     font-size: 15px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 20px 100px 100px;
+}
+#experience,
+.experience
+{
+    /*background-color: #eeffaa;*/
+}
+.container h1
+{
+    color: orange;
+}
+.container h2
+{
+    color: gray;
+    font-size: 15px;
+}
+#education,
+.education
+{
+    background-color: #f3f3f3;
+}
+.container h1
+{
+    color: orange;
+    padding-top: 50px;
+}
+.container h2
+{
+    color: gray;
+    font-size: 15px;
+}
+#skills,
+.container h1
+{
+    color: orange;
+}
+.container h2
+{
+    color: gray;
+    font-size: 15px;
+}
+.container p
+{
+    color: black;
+}
+#quote,
+.quote-div
+{
+    float: left;
+}
+.quote-text
+{
+    float: left;
+}
+.quote-img
+{
+    height: 400px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+.quote-text h1
+{
+    font-size: 20px;
+    padding-left: 60px;
+    padding-top: 140px;
+}
+.quote-text h3
+{
+    font-size: 15px;
+    padding-left: 60px;
     padding-top: 20px;
+    color: gray;
+    font-weight: lighter;
+}
+#contact,
+.contact
+{
+    background-color: #f3f3f3;
+}
+.contact-details h1
+{
+    padding-top: 500px;
+    padding-bottom: 100px;
 }
