@@ -96,6 +96,10 @@ body
     color: black;
 }
 #quote,
+.quote
+{
+    overflow: hidden;
+}
 .quote-div
 {
     float: left;
@@ -127,10 +131,27 @@ body
 #contact,
 .contact
 {
-    background-color: #f3f3f3;
+    padding-top: 50px;
 }
 .contact-details h1
 {
-    padding-top: 500px;
+    padding-top: 50px;
     padding-bottom: 100px;
+}
+.contact-details p
+{
+    color: gray;
+    text-align: center;
+    padding-right: 700px;
+}
+.gray-block 
+{
+    background-color: #f3f3f3;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+.footer
+{
+    padding-top: 100px;
 }
