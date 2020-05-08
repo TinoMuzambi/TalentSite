@@ -106,33 +106,39 @@ body
 .education
 {
     background-color: #f3f3f3;
+    width: available;
 }
 #education-container h1
 {
     color: orange;
     padding-top: 50px;
+    /*margin-left: -40%;*/
 }
 #education-container h2
 {
     color: gray;
     font-size: 15px;
+    padding-bottom: 50px;
 }
 #education-container p
 {
     padding-bottom: 50px;
 }
-.row
+.education-items
 {
-    padding-left: 50px;
-    padding-bottom: 50px;
+    overflow: hidden;
+    /*padding-left: 50px;*/
+    /*padding-bottom: 50px;*/
 }
 .education-item
 {
     display: block;
     height: 350px;
-    width: 650px;
+    width: 45%;
     background-color: blue;
     margin-left: 50px;
+    margin-bottom: 50px;
+    float: left;
 }
 .education-item h1
 {
