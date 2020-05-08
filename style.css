@@ -5,32 +5,57 @@ body
     background-color: black;
 }
 #header,
-.nav-bar .navbar .navbar-brand
+.nav-bar
 {
-    font-size: 20px;
+    padding-top: 15px;
+}
+.navbar-brand
+{
+    font-size: 100%;
+    padding-left: 70px;
+    font-weight: lighter;
+    color: grey;
     font-family: sans-serif;
 }
-.nav-bar .navbar .collapse .navbar-nav .nav-item
+.nav-link
 {
     font-size: 15px;
-    font-family: sans-serif;
+    color: grey;
 }
 #intro,
+.intro-container
+{
+    overflow: hidden;
+}
+.col-md-6
+{
+    float: left;
+}
 .col-md-6 h1
 {
-    padding-top: 80px;
+    padding-top: 200px;
+    padding-left: 150px;
     color: orange;
     font-size: 100px;
+    font-weight: lighter;
 }
 .col-md-6 p
 {
-    font-size: 20px;
+    font-size: 25px;
+    padding-left: 150px;
+    padding-top: 40px;
     color: gray;
+}
+.intro-img-container
+{
+    float: left;
 }
 .intro-img
 {
-    height: 800px;
-    padding-bottom: 50px;
+    max-height: 1000px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 70px;
 }
 #about,
 .about
@@ -39,31 +64,40 @@ body
 }
 .banner-img
 {
-    padding: 50px 10px;
-    height: 600px;
+    /*padding: top right bottom left*/
+    /*padding: top right bottom*/
+    /*padding: top_and_bottom right_and_left*/
+    /*padding: top_and_bottom_right_and_left*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-height: 700px;
     width: 100%;
 }
-.container h3
+#about-container h3
 {
+    font-family: "Century Gothic", serif;
     font-size: 20px;
     padding-top: 50px;
     color: gray;
+    font-weight: lighter;
 }
-.container p
+#about-container p
 {
     font-size: 15px;
+    color: #535353;
     padding: 20px 100px 100px;
+    font-weight: normal;
 }
 #experience,
 .experience
 {
     /*background-color: #eeffaa;*/
 }
-.container h1
+#experience-container h1
 {
     color: orange;
 }
-.container h2
+#experience-container h2
 {
     color: gray;
     font-size: 15px;
@@ -73,29 +107,51 @@ body
 {
     background-color: #f3f3f3;
 }
-.container h1
+#education-container h1
 {
     color: orange;
     padding-top: 50px;
 }
-.container h2
+#education-container h2
 {
     color: gray;
     font-size: 15px;
 }
+#education-container p
+{
+    padding-bottom: 50px;
+}
+.row
+{
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+.education-item
+{
+    display: block;
+    height: 350px;
+    width: 650px;
+    background-color: blue;
+    margin-left: 50px;
+}
+.education-item h1
+{
+    color: white;
+}
 #skills,
-.container h1
+#skills-container h1
 {
     color: orange;
 }
-.container h2
+#skills-container h2
 {
     color: gray;
     font-size: 15px;
 }
-.container p
+#skills-container p
 {
     color: black;
+    padding-bottom: 50px;
 }
 #quote,
 .quote
@@ -112,13 +168,13 @@ body
 }
 .quote-img
 {
-    height: 400px;
+    height: 500px;
     padding-bottom: 50px;
-    padding-left: 50px;
+    padding-left: 100px;
 }
 .quote-text h1
 {
-    font-size: 20px;
+    font-size: 30px;
     padding-left: 60px;
     padding-top: 140px;
 }
@@ -151,13 +207,14 @@ body
 {
     padding-top: 50px;
     padding-bottom: 100px;
-    padding-left: 50px;
+    padding-left: 90px;
     color: orange;
 }
 .contact-details p
 {
     color: gray;
     text-align: center;
+    padding-left: 50px;
     /*padding-right: 700px;*/
 }
 /* Contact Form*/
