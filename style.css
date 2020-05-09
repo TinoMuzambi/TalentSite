@@ -419,3 +419,11 @@ body
 {
     padding-top: 100px;
 }
+.social-icons
+{
+    margin-top: -20px;
+}
+.social-icons a
+{
+    color: black;
+}
