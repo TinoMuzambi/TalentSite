@@ -106,13 +106,11 @@ body
 .education
 {
     background-color: #f3f3f3;
-    width: available;
 }
 #education-container h1
 {
     color: orange;
     padding-top: 50px;
-    /*margin-left: -40%;*/
 }
 #education-container h2
 {
@@ -120,29 +118,40 @@ body
     font-size: 15px;
     padding-bottom: 50px;
 }
-#education-container p
-{
-    padding-bottom: 50px;
-}
 .education-items
 {
+    width: 100%;
     overflow: hidden;
-    /*padding-left: 50px;*/
-    /*padding-bottom: 50px;*/
 }
 .education-item
 {
     display: block;
-    height: 350px;
+    height: 290px;
     width: 45%;
-    background-color: blue;
+    background-color: #0E1F58;
     margin-left: 50px;
     margin-bottom: 50px;
     float: left;
 }
-.education-item h1
+.education-item h3
 {
     color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.education-item h4
+{
+    color: white;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.education-item p
+{
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 #skills,
 #skills-container h1
