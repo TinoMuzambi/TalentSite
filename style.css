@@ -126,7 +126,7 @@ body
 .education-item
 {
     display: block;
-    height: 290px;
+    height: min-content;
     width: 45%;
     background-color: #0E1F58;
     margin-left: 50px;
@@ -152,6 +152,7 @@ body
     color: white;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 30px;
 }
 #skills,
 #skills-container h1
