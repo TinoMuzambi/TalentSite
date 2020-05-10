@@ -109,10 +109,6 @@ body
 /* EXPERIENCE */
 
 #experience,
-.experience
-{
-    /*background-color: #eeffaa;*/
-}
 #experience-container h1
 {
     color: #FF8B35;
@@ -121,6 +117,38 @@ body
 {
     color: gray;
     font-size: 15px;
+}
+.experience-item {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #f3f3f3;
+    width: 100%;
+}
+.experience-item h1
+{
+    font-size: 25px;
+    padding-top: 20px;
+}
+.experience-item h2
+{
+    font-size: 20px;
+}
+.experience-item h3
+{
+    color: gray;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.experience-item ul
+{
+    list-style: none;
+    padding-left: 23%;
+    padding-bottom: 20px;
+}
+.experience-item li
+{
+    width: 70%;
+    color: gray;
 }
 
 /* EDUCATION */
@@ -149,7 +177,7 @@ body
 .education-item
 {
     display: block;
-    height: min-content;
+    height: 280px;
     width: 45%;
     background-color: #0E1F58;
     margin-left: 50px;
@@ -209,11 +237,12 @@ body
     float: left;
     margin-right: 20px;
     margin-bottom: 10px;
+    height: 700px;
 }
 .skills-image h1
 {
     padding-top: 50px;
-    padding-left: 33.3%;
+    /*padding-left: 33.3%;*/
     font-weight: lighter;
 }
 .skills-image h2
