@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <link id="pagestyle" href="style.css?version=10" rel="stylesheet" type="text/css" />
+    <link id="pagestyle" href="style.css?version=1" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -196,21 +196,19 @@
                 <br><br>+27786482758</p>
             </div>
 
-            <div class="contact-form">
+            <div class="contact-form-container">
                 <!-- partial:index.partial.html -->
                 <div class="cont-contactBtn">
                     <div class="cont-flip">
                         <div class="front">
-                            <a href="#" class="btn btn-white flip">Send Message</a>
+                            <a class="btn btn-white flip">Send Message</a>
                         </div>
                         <div class="back">
                             <a href="#" class="flip close"></a>
-                            <form class="contact-form" action="">
-                                <input class="gutter" type="text" placeholder="Name">
-                                <input type="text" placeholder="Company">
-                                <input class="gutter" type="text" placeholder="Telephone">
-                                <input type="text" placeholder="Email">
-                                <textarea name="" id="" placeholder="Leave a message"></textarea>
+                            <form class="contact-form" method="POST" action="form-to-email.php">
+                                <input class="gutter" type="text" name="name"placeholder="Name">
+                                <input type="text" name="email" placeholder="Email">
+                                <textarea name="message" placeholder="Leave a message"></textarea>
                                 <input type="submit" value="Send">
                             </form>
                         </div>
