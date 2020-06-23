@@ -262,15 +262,8 @@ html, body
 #quote,
 .quote
 {
-    overflow: hidden;
-}
-.quote-div
-{
-    float: left;
-}
-.quote-text
-{
-    float: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 .quote-img
 {
@@ -334,6 +327,7 @@ html, body
 .contact-form-container a, p {
     font-family: 'Raleway', sans-serif;
 }
+
 .cont-contactInfo {
     float: left;
     padding-right: 5%;
@@ -475,6 +469,22 @@ html, body
         grid-template-columns: repeat(2, 1fr);
     }
 
+    #skills-container .skills-images {
+        margin-left: 10%;
+    }
+
+    #skills-container .skills-image {
+        margin-bottom: 50px;
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .skills-image-item
+    {
+        height: 600px;
+        width: 100%;
+    }
+
 }
 
 
@@ -497,12 +507,32 @@ html, body
         height: 500px;
     }
 
-    #education-container .education-items {
+    #skills-container .skills-images {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    #skills-container .skills-images {
+    #quote {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    #quote .quote-img {
+        padding-bottom: 0;
+        width: 80%;
+    }
+
+    #quote h1 {
+        padding-top: 20px;
+    }
+
+    .cont-contactBtn {
+        height: 359px;
+        margin: 0 auto;
+        width: 474px;
+        position: relative;
+        -webkit-perspective: 800px;
+        -moz-perspective: 800px;
+        -o-perspective: 800px;
+        perspective: 800px;
     }
 }
 
@@ -531,27 +561,23 @@ html, body
 
     #education-container .education-items {
         grid-template-columns: repeat(1, 1fr);
+        margin-left: 0;
     }
 
     #education-container .education-item {
         margin-left: 0;
     }
 
-    #skills-container .skills-images {
-        margin-left: 10%;
-    }
-
-    #skills-container .skills-image {
-        margin-bottom: 50px;
+    .cont-contactBtn{
+        height: 359px;
         width: 90%;
-        margin-right: 0;
+        position: relative;
+        -webkit-perspective: 800px;
+        -moz-perspective: 800px;
+        -o-perspective: 800px;
+        perspective: 800px;
     }
 
-    .skills-image-item
-    {
-        height: 600px;
-        width: 100%;
-    }
 }
 
 /*        x      Viewport less then or equal to 425px       x     */
