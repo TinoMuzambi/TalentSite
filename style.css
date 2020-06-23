@@ -238,6 +238,7 @@ html, body
 {
     background-color: #f3f3f3;
     margin-right: 20px;
+    text-align: center;
 }
 .skills-image h1
 {
@@ -246,7 +247,6 @@ html, body
 }
 .skills-image h2
 {
-    padding-left: 35%;
     padding-top: 20px;
     padding-bottom: 60px;
     font-size: 20px;
@@ -493,7 +493,9 @@ html, body
 
     #quote .quote-img {
         padding-bottom: 0;
-        width: 80%;
+        width: 90%;
+        padding-left: 9%;
+        /*margin: 0 auto;*/
     }
 
     #quote h1 {
@@ -540,17 +542,14 @@ html, body
         grid-template-columns: repeat(1, 1fr);
     }
 
-    #quote {
-        grid-template-columns: repeat(1, 1fr);
+    #skills-container .skills-images {
+        margin-left: 10%;
     }
 
-    #quote .quote-img {
-        padding-bottom: 0;
-        width: 80%;
-    }
-
-    #quote h1 {
-        padding-top: 20px;
+    #skills-container .skills-image {
+        margin-bottom: 50px;
+        width: 90%;
+        margin-right: 0;
     }
 
     .cont-contactBtn {
@@ -585,7 +584,8 @@ html, body
     }
 
     #intro .intro-img {
-        height: 500px;
+        height: 450px;
+        margin-left: -10px;
     }
 
     .cont-contactBtn{
