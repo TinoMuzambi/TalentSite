@@ -44,7 +44,7 @@ html, body
 }
 .intro-text
 {
-    margin-left: 50px;
+    padding-left: 20px;
 }
 .intro-text h1
 {
@@ -521,12 +521,13 @@ html, body
     }
 
     #intro .intro-text h1 {
-        font-size: 60px;
+        font-size: 40px;
         padding-top: 100px;
     }
 
     #intro .intro-img {
-        height: 500px;
+        padding-left: 0;
+        height: 400px;
     }
 
     #education-container .education-items {
