@@ -4,7 +4,7 @@ html, body
 {
     margin: 0;
     padding: 0;
-    min-width: 100vw;
+    min-width: 100%;
 }
 
 /* HEADER */
@@ -92,7 +92,7 @@ html, body
 {
     font-family: "Century Gothic", serif;
     font-size: 20px;
-    padding-top: 50px;
+    padding-top: 20px;
     color: gray;
     font-weight: lighter;
 }
@@ -110,6 +110,7 @@ html, body
 #experience-container h1
 {
     color: #FF8B35;
+    padding-top: 20px;
 }
 #experience-container h2
 {
@@ -155,6 +156,7 @@ html, body
 .education
 {
     background-color: #f3f3f3;
+    width: 100%;
 }
 #education-container h1
 {
@@ -240,7 +242,6 @@ html, body
 .skills-image h1
 {
     padding-top: 50px;
-    /*padding-left: 33.3%;*/
     font-weight: lighter;
 }
 .skills-image h2
@@ -293,13 +294,6 @@ html, body
 {
     padding-top: 50px;
 }
-.gray-block
-{
-    background-color: #f3f3f3;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-top: 50px;
-}
 
 /* Contact Form*/
 
@@ -322,7 +316,6 @@ html, body
 }
 .contact-form-container {
     padding-top: 50px;
-    padding-bottom: 100px;
 }
 .contact-form-container a, p {
     font-family: 'Raleway', sans-serif;
@@ -456,6 +449,17 @@ html, body
 /*              Viewport less then or equal to 1440px            */
 
 @media only screen and (max-width: 1440px) {
+    #intro {
+        padding-bottom: 50px;
+    }
+
+    #intro .intro-text h1 {
+        padding-top: 100px;
+    }
+
+    #intro .intro-img {
+        height: 800px;
+    }
 
 }
 
@@ -465,24 +469,40 @@ html, body
 /*              Viewport less then or equal to 1024px            */
 
 @media only screen and (max-width: 1024px){
-    #skills-container .skills-images {
-        grid-template-columns: repeat(2, 1fr);
+    #intro {
+        padding-bottom: 50px;
     }
 
-    #skills-container .skills-images {
-        margin-left: 10%;
+    #intro .intro-text h1 {
+        padding-top: 100px;
     }
 
-    #skills-container .skills-image {
-        margin-bottom: 50px;
-        width: 90%;
-        margin-right: 0;
+    #intro .intro-img {
+        height: 700px;
     }
 
     .skills-image-item
     {
         height: 600px;
         width: 100%;
+    }
+
+    #quote {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #quote .quote-img {
+        padding-bottom: 0;
+        width: 80%;
+    }
+
+    #quote h1 {
+        padding-top: 20px;
+        padding-left: 100px;
+    }
+
+    #quote h3 {
+        padding-left: 100px;
     }
 
 }
@@ -505,6 +525,15 @@ html, body
 
     #intro .intro-img {
         height: 500px;
+    }
+
+    #education-container .education-items {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0;
+    }
+
+    #education-container .education-item {
+        margin-left: 0;
     }
 
     #skills-container .skills-images {
@@ -557,15 +586,6 @@ html, body
 
     #intro .intro-img {
         height: 500px;
-    }
-
-    #education-container .education-items {
-        grid-template-columns: repeat(1, 1fr);
-        margin-left: 0;
-    }
-
-    #education-container .education-item {
-        margin-left: 0;
     }
 
     .cont-contactBtn{
