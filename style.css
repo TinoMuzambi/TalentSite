@@ -68,10 +68,6 @@ body {
 	grid-template-columns: repeat(1, 1fr);
 }
 .banner-img {
-	/*padding: top right bottom left*/
-	/*padding: top right bottom*/
-	/*padding: top_and_bottom right_and_left*/
-	/*padding: top_and_bottom_right_and_left*/
 	padding-top: 50px;
 	padding-bottom: 50px;
 	max-height: 700px;
