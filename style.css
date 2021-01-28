@@ -445,11 +445,6 @@ p {
 		height: 700px;
 	}
 
-	.skills-image-item {
-		height: 600px;
-		width: 100%;
-	}
-
 	#quote {
 		grid-template-columns: repeat(1, 1fr);
 	}
@@ -491,16 +486,6 @@ p {
 
 	#education-container .education-item {
 		margin-left: 0;
-	}
-
-	#skills-container .skills-images {
-		margin-left: 10%;
-	}
-
-	#skills-container .skills-image {
-		margin-bottom: 50px;
-		width: 90%;
-		margin-right: 0;
 	}
 
 	.cont-contactBtn {
