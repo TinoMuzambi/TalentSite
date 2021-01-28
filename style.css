@@ -240,6 +240,7 @@ h1 {
 .skills-image-item {
 	height: 200px;
 	width: 200px;
+	object-fit: cover;
 }
 
 /* QUOTE */
