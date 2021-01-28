@@ -191,7 +191,7 @@ body {
 .education-item .edu-logo {
 	height: 350px;
 	object-fit: cover;
-	background: white;
+	background: rgba(255, 255, 255, 0.5);
 	margin: 30px 0 50px 50px;
 }
 
@@ -202,8 +202,16 @@ body {
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 }
-#skills-container h3 {
+#skills-container h3,
+h1 {
 	color: #ff8b35;
+}
+#skills-container h1 {
+	margin-top: 50px;
+}
+#skills-container h2 {
+	color: gray;
+	font-size: 15px;
 }
 #skills-container p {
 	color: black;
