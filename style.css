@@ -159,12 +159,10 @@ body {
 	grid-template-columns: repeat(2, 1fr);
 }
 .education-item {
-	display: block;
-	height: 280px;
+	/* height: 380px; */
 	background-color: #0e1f58;
 	margin-left: 50px;
 	margin-bottom: 50px;
-	float: left;
 }
 .education-item h3 {
 	color: white;
@@ -182,7 +180,12 @@ body {
 	color: white;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-bottom: 30px;
+}
+.education-item .edu-logo {
+	height: 350px;
+	object-fit: cover;
+	background: white;
+	margin: 30px 50px;
 }
 
 /* SKILLS */
