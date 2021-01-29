@@ -500,7 +500,22 @@ p {
 
 	#education-container .education-item {
 		margin-left: 0;
-		width: 200px;
+		width: 400px;
+		margin: 30px auto;
+	}
+
+	#education-container .edu-logo {
+		height: 300px;
+	}
+
+	#skills-container .skills-image {
+		width: 400px;
+		height: 800px;
+	}
+
+	#skills-container .skills-image-item {
+		width: 400px;
+		height: 400px;
 	}
 
 	.cont-contactBtn {
