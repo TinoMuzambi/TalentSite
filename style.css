@@ -28,6 +28,10 @@ body {
 .nav-link {
 	font-size: 15px;
 	color: grey;
+	transition: transform 0.2s ease;
+}
+.nav-link:hover {
+	transform: translateY(-10px);
 }
 
 /* INTRO */
