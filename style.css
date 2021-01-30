@@ -510,12 +510,13 @@ p {
 
 	#skills-container .skills-image {
 		width: 400px;
-		height: 800px;
+		height: 300px;
 	}
 
 	#skills-container .skills-image-item {
 		width: 400px;
-		height: 400px;
+		height: 150px;
+		object-position: top;
 	}
 
 	.cont-contactBtn {
