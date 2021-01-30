@@ -484,6 +484,10 @@ p {
 		background-position: right 0px;
 	}
 
+	#about #about-container p {
+		padding: 20px 50px;
+	}
+
 	#education-container .education-items {
 		grid-template-columns: repeat(1, 1fr);
 		margin-left: 0;
