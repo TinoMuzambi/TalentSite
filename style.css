@@ -45,7 +45,7 @@ body {
 	padding-left: 50px;
 }
 .intro-text h1 {
-	padding-top: 200px;
+	padding: 200px 0 200px 0;
 	color: #ff8b35;
 	font-size: 100px;
 	font-weight: lighter;
