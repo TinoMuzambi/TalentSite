@@ -57,12 +57,12 @@ body {
 }
 .intro-img-container {
 	background: url("./img/grad.jpg");
-	background-size: 50%;
+	background-size: 40%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-position: top right;
+	background-position: right -120px;
 	width: 100%;
-	margin-bottom: 50px;
+	margin: 50px 0 100px 0;
 }
 
 /* ABOUT */
@@ -436,10 +436,6 @@ p {
 	#intro .intro-text h1 {
 		padding-top: 100px;
 	}
-
-	#intro .intro-img {
-		height: 800px;
-	}
 }
 
 /*        X     Viewport less then or equal to 1440px      X     */
@@ -453,10 +449,6 @@ p {
 
 	#intro .intro-text h1 {
 		padding-top: 100px;
-	}
-
-	#intro .intro-img {
-		height: 700px;
 	}
 
 	#quote {
@@ -488,9 +480,8 @@ p {
 		padding-top: 100px;
 	}
 
-	#intro .intro-img {
-		padding-left: 0;
-		height: 400px;
+	#intro .intro-img-container {
+		background-position: right 0px;
 	}
 
 	#education-container .education-items {
@@ -547,10 +538,6 @@ p {
 	#intro .intro-text h1 {
 		padding-top: 100px;
 		font-size: 60px;
-	}
-
-	#intro .intro-img {
-		height: 450px;
 	}
 
 	.cont-contactBtn {
