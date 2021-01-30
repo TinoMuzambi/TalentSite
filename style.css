@@ -171,7 +171,6 @@ body {
 	grid-template-columns: repeat(2, 1fr);
 }
 .education-item {
-	/* height: 380px; */
 	background-color: #0e1f58;
 	margin-left: 50px;
 	margin-bottom: 50px;
