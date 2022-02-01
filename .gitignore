@@ -2,3 +2,4 @@
 /talent cv.doc
 *.doc
 *.iml
+.DS_Store
