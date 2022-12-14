@@ -130,15 +130,17 @@ body {
 .experience-item h2 {
 	font-size: 20px;
 }
+
 .experience-item h3 {
 	color: gray;
 	font-size: 15px;
 	font-weight: lighter;
 }
 .experience-item .exp-logo {
-	object-fit: cover;
+	object-fit: contain;
 	margin: 20px auto;
-	width: 300px;
+	height: 200px;
+	width: 200px;
 }
 .experience-item ul {
 	list-style: none;
