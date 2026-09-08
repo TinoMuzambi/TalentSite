@@ -1,5 +1,5 @@
-/.idea
-/talent cv.doc
+.DS_Store
+.idea/
+.vercel/
 *.doc
 *.iml
-.DS_Store

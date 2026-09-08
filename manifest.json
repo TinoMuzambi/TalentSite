@@ -1,6 +1,11 @@
 {
 	"short_name": "Talent Muzambi",
 	"name": "Talent Muzambi",
+	"description": "Professional profile for Dr Talent Muzambi.",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#f5f0e7",
+	"theme_color": "#12243d",
 	"icons": [
 		{
 			"src": "/android-icon-36x36.png",
