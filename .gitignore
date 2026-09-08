@@ -1,5 +1,7 @@
-/.idea
-/talent cv.doc
+.DS_Store
+.idea/
+.vercel/
+__pycache__/
+*.py[cod]
 *.doc
 *.iml
-.DS_Store
